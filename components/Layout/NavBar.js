@@ -49,7 +49,7 @@ export default function NavBar() {
       </ul>
 
       <div className="bg-primary cursor-pointer lg:flex items-center p-1 px-4 text-white gap-4 rounded-full hidden">
-        {user ? (
+        {user && user.addr ? (
           <span>{truncateAddress(user.addr)}</span>
         ) : (
           <span onClick={fcl.logIn}>Connect Wallet</span>
