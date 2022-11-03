@@ -41,7 +41,7 @@ export default function Subscribe() {
           data-aos="fade-up"
           className="h-80   object-cover rounded-3xl"
           alt="Subscripe"
-          src="/assets/images/victoria-palacios.jpg"
+          src="/assets/images/sky-diving.jpg"
         />
       </div>
       <div
